@@ -5,6 +5,8 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorBackgroundWhite">#FFFFFF</color>
+    <color name="colorBackgroundLight">#F6F6F6</color>
 
     <color name="colorBusinessName">#667890</color>
+    <color name="colorNormalText">#505061</color>
 </resources>

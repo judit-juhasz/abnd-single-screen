@@ -18,5 +18,5 @@
     <dimen name="tv_small_padding">5dp</dimen>
     <dimen name="tv_normal_padding">15dp</dimen>
     <dimen name="tv_large_padding">25dp</dimen>
-    <dimen name="tv_XL_padding">30dp</dimen>
+    <dimen name="tv_xl_padding">30dp</dimen>
 </resources>

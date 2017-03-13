@@ -27,6 +27,10 @@
 
         </RelativeLayout>
 
+        <TextView
+            android:text="@string/tv_lead_text"
+            style="@style/LeadText"/>
+
     </LinearLayout>
 
 </ScrollView>
