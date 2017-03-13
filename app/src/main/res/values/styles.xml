@@ -63,4 +63,23 @@
         <item name="android:layout_marginRight">@dimen/iv_normal_margin</item>
     </style>
 
+    <style name="Quote">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorNormalText</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/tv_large_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tv_large_margin</item>
+        <item name="android:layout_marginLeft">@dimen/tv_normal_margin</item>
+        <item name="android:layout_marginRight">@dimen/tv_normal_margin</item>
+    </style>
+
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/colorBackgroundLine</item>
+    </style>
+
 </resources>

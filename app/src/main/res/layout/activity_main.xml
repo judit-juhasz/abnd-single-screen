@@ -51,6 +51,16 @@
 
         </LinearLayout>
 
+        <View
+            style="@style/Line"/>
+
+        <TextView
+            android:text="@string/tv_quote"
+            style="@style/Quote"/>
+
+        <View
+            style="@style/Line"/>
+
     </LinearLayout>
 
 </ScrollView>

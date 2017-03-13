@@ -32,4 +32,5 @@
     <dimen name="layout_xxl_margin_padding">50dp</dimen>
 
     <dimen name="width_zero">0dp</dimen>
+    <dimen name="line_height">1dp</dimen>
 </resources>
