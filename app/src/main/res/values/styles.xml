@@ -82,4 +82,35 @@
         <item name="android:background">@color/colorBackgroundLine</item>
     </style>
 
+    <style name="HelpLinearLayout">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/layout_xl_margin_padding</item>
+        <item name="android:layout_marginBottom">@dimen/layout_xl_margin_padding</item>
+        <item name="android:layout_marginLeft">@dimen/layout_large_margin_padding</item>
+        <item name="android:layout_marginRight">@dimen/layout_large_margin_padding</item>
+    </style>
+
+    <style name="HelpText">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">@dimen/width_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:textColor">@color/colorNormalText</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="PictureHelp">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">@dimen/width_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
 </resources>
