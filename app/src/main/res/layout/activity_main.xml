@@ -7,14 +7,26 @@
     android:background="@color/colorBackgroundWhite"
     tools:context="com.example.android.singlescreen.MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
-    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/header"
+                style="@style/MainPicture"/>
+
+            <TextView
+                android:id="@+id/tv_business_name"
+                android:text="@string/business_name"
+                style="@style/BusinessName"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </ScrollView>
