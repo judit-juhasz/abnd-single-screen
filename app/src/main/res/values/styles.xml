@@ -2,14 +2,12 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="BusinessName">
-        <!-- Customize your theme here. -->
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorBusinessName</item>
@@ -23,7 +21,6 @@
     </style>
 
     <style name="MainPicture">
-        <!-- Customize your theme here. -->
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:adjustViewBounds">true</item>
@@ -31,7 +28,6 @@
     </style>
 
     <style name="LeadText">
-        <!-- Customize your theme here. -->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorNormalText</item>
@@ -40,7 +36,31 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:paddingTop">@dimen/tv_large_padding</item>
         <item name="android:paddingBottom">@dimen/tv_large_padding</item>
+    </style>
 
+    <style name="VisualsTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorNormalText</item>
+        <item name="android:textSize">@dimen/textsize_large</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/tv_xl_padding</item>
+        <item name="android:paddingBottom">@dimen/tv_large_padding</item>
+    </style>
+
+    <style name="PictureLeft">
+        <item name="android:layout_width">@dimen/width_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginLeft">@dimen/iv_normal_margin</item>
+        <item name="android:layout_marginRight">@dimen/iv_small_margin</item>
+    </style>
+
+    <style name="PictureRight" parent="PictureLeft">
+        <item name="android:layout_marginLeft">@dimen/iv_small_margin</item>
+        <item name="android:layout_marginRight">@dimen/iv_normal_margin</item>
     </style>
 
 </resources>

@@ -19,4 +19,17 @@
     <dimen name="tv_normal_padding">15dp</dimen>
     <dimen name="tv_large_padding">25dp</dimen>
     <dimen name="tv_xl_padding">30dp</dimen>
+
+    <!-- The margins of ImageViews -->
+    <dimen name="iv_small_margin">5dp</dimen>
+    <dimen name="iv_normal_margin">10dp</dimen>
+
+    <!-- The margins and paddings of Linear/Relative Layouts -->
+    <dimen name="layout_small_margin_padding">5dp</dimen>
+    <dimen name="layout_normal_margin_padding">10dp</dimen>
+    <dimen name="layout_large_margin_padding">20dp</dimen>
+    <dimen name="layout_xl_margin_padding">30dp</dimen>
+    <dimen name="layout_xxl_margin_padding">50dp</dimen>
+
+    <dimen name="width_zero">0dp</dimen>
 </resources>
