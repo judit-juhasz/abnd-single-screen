@@ -83,7 +83,6 @@
     </style>
 
     <style name="HelpLinearLayout">
-        <!-- Customize your theme here. -->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
@@ -94,7 +93,6 @@
     </style>
 
     <style name="HelpText">
-        <!-- Customize your theme here. -->
         <item name="android:layout_width">@dimen/width_zero</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">8</item>
@@ -104,13 +102,49 @@
     </style>
 
     <style name="PictureHelp">
-        <!-- Customize your theme here. -->
         <item name="android:layout_width">@dimen/width_zero</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:adjustViewBounds">true</item>
         <item name="android:scaleType">centerCrop</item>
         <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ContactLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorBackgroundContactInfo</item>
+        <item name="android:paddingTop">@dimen/layout_normal_margin_padding</item>
+        <item name="android:paddingBottom">@dimen/layout_normal_margin_padding</item>
+        <item name="android:paddingLeft">@dimen/layout_large_margin_padding</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="ContactSubLinearLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/layout_small_margin_padding</item>
+
+    </style>
+
+    <style name="ContactText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorContactText</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/tv_normal_margin</item>
+    </style>
+
+    <style name="ContactIcon">
+        <item name="android:layout_width">@dimen/contact_icon_size</item>
+        <item name="android:layout_height">@dimen/contact_icon_size</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
 </resources>

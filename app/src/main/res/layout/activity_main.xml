@@ -77,6 +77,64 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            style="@style/ContactLinearLayout">
+
+            <LinearLayout
+                style="@style/ContactSubLinearLayout"
+                android:layout_marginTop="@dimen/layout_small_margin_padding">
+
+                <ImageView
+                    android:src="@drawable/web_icon"
+                    style="@style/ContactIcon"/>
+
+                <TextView
+                    android:text="@string/website"
+                    style="@style/ContactText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ContactSubLinearLayout">
+
+                <ImageView
+                    android:src="@drawable/email_icon"
+                    style="@style/ContactIcon"/>
+
+                <TextView
+                    android:text="@string/email"
+                    style="@style/ContactText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ContactSubLinearLayout">
+
+                <ImageView
+                    android:src="@drawable/twitter_icon"
+                    style="@style/ContactIcon"/>
+
+                <TextView
+                    android:text="@string/twitter_name"
+                    style="@style/ContactText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ContactSubLinearLayout">
+
+                <ImageView
+                    android:src="@drawable/linkedin_icon"
+                    style="@style/ContactIcon"/>
+
+                <TextView
+                    android:text="@string/linkedin_name"
+                    style="@style/ContactText"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </ScrollView>

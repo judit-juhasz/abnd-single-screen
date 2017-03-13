@@ -7,7 +7,9 @@
     <color name="colorBackgroundWhite">#FFFFFF</color>
     <color name="colorBackgroundLight">#F6F6F6</color>
     <color name="colorBackgroundLine">#E2E2E2</color>
+    <color name="colorBackgroundContactInfo">#505061</color>
 
     <color name="colorBusinessName">#667890</color>
     <color name="colorNormalText">#505061</color>
+    <color name="colorContactText">#808080</color>
 </resources>

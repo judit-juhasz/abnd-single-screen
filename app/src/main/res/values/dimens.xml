@@ -31,6 +31,9 @@
     <dimen name="layout_xl_margin_padding">30dp</dimen>
     <dimen name="layout_xxl_margin_padding">50dp</dimen>
 
+    <!-- The parameters of contact-->
+    <dimen name="contact_icon_size">18dp</dimen>
+
     <dimen name="width_zero">0dp</dimen>
     <dimen name="line_height">1dp</dimen>
 </resources>
