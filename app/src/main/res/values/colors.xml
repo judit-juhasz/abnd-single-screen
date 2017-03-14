@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorBackgroundWhite">#FFFFFF</color>
+    <color name="colorBackgroundTransparent">#CCFFFFFF</color>
     <color name="colorBackgroundLight">#F6F6F6</color>
     <color name="colorBackgroundLine">#E2E2E2</color>
     <color name="colorBackgroundContactInfo">#505061</color>

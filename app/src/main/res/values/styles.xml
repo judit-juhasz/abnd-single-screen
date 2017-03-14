@@ -12,7 +12,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorBusinessName</item>
         <item name="android:textSize">@dimen/business_name_textsize</item>
-        <item name="android:background">@color/colorBackgroundWhite</item>
+        <item name="android:background">@color/colorBackgroundTransparent</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:layout_marginLeft">@dimen/tv_normal_margin</item>
         <item name="android:paddingTop">@dimen/tv_small_padding</item>
