@@ -20,6 +20,11 @@
     <dimen name="tv_large_padding">25dp</dimen>
     <dimen name="tv_xl_padding">30dp</dimen>
 
+    <!-- The parameters of shape background -->
+    <dimen name="shape_small_padding">5dp</dimen>
+    <dimen name="shape_normal_padding">15dp</dimen>
+    <dimen name="shape_corner_radius">3dp</dimen>
+
     <!-- The margins of ImageViews -->
     <dimen name="iv_small_margin">5dp</dimen>
     <dimen name="iv_normal_margin">10dp</dimen>
