@@ -106,7 +106,7 @@
                     android:id="@+id/tv_email"
                     android:text="@string/email"
                     style="@style/ContactText"
-                    android:autoLink="email"
+                    android:onClick="SendEmail"
                     android:textColorLink="@color/colorContactText"/>
 
             </LinearLayout>

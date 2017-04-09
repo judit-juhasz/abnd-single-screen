@@ -53,4 +53,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void SendEmail(View view) {
+        Intent sendEmailIntent = new Intent(Intent.ACTION_SENDTO,
+                Uri.fromParts("mailto","judit@juhasz.name", null));
+        sendEmailIntent.putExtra(Intent.EXTRA_SUBJECT, "The subject comes here");
+        sendEmailIntent.putExtra(Intent.EXTRA_TEXT, "Write your message here.");
+        startActivity(Intent.createChooser(sendEmailIntent, "Choose and Email client: "));
+    }
 }
