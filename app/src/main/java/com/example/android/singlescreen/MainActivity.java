@@ -22,43 +22,31 @@ public class MainActivity extends AppCompatActivity {
 
         TextView businessNameTextView = (TextView)findViewById(R.id.tv_business_name);
         businessNameTextView.setTypeface(typeface);
-
-        final TextView websiteTextView = (TextView)findViewById(R.id.tv_website);
-        websiteTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent openWebsite = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.tanits.com"));
-                startActivity(openWebsite);
-            }
-        });
-
-        final TextView twitterTextView = (TextView)findViewById(R.id.tv_twitter);
-        twitterTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent openWebsite = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.twitter.com/TanitsHQ"));
-                startActivity(openWebsite);
-            }
-        });
-
-        final TextView linkedinTextView = (TextView)findViewById(R.id.tv_linkedin);
-        linkedinTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent openWebsite = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.linkedin.com/company/tanits"));
-                startActivity(openWebsite);
-            }
-        });
     }
 
-    public void SendEmail(View view) {
+    public void openMainWebsite(View view) {
+        Intent openWebsite = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://www.tanits.com"));
+        startActivity(openWebsite);
+    }
+
+    public void sendEmail(View view) {
         Intent sendEmailIntent = new Intent(Intent.ACTION_SENDTO,
                 Uri.fromParts("mailto","judit@juhasz.name", null));
         sendEmailIntent.putExtra(Intent.EXTRA_SUBJECT, "The subject comes here");
         sendEmailIntent.putExtra(Intent.EXTRA_TEXT, "Write your message here.");
         startActivity(Intent.createChooser(sendEmailIntent, "Choose and Email client: "));
+    }
+
+    public void openTwitterWebsite(View view) {
+        Intent openWebsite = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://www.twitter.com/TanitsHQ"));
+        startActivity(openWebsite);
+    }
+
+    public void openLinkedinWebsite(View view) {
+        Intent openWebsite = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://www.linkedin.com/company/tanits"));
+        startActivity(openWebsite);
     }
 }

@@ -91,7 +91,8 @@
                 <TextView
                     android:id="@+id/tv_website"
                     android:text="@string/website"
-                    style="@style/ContactText"/>
+                    style="@style/ContactText"
+                    android:onClick="openMainWebsite"/>
 
             </LinearLayout>
 
@@ -106,7 +107,7 @@
                     android:id="@+id/tv_email"
                     android:text="@string/email"
                     style="@style/ContactText"
-                    android:onClick="SendEmail"
+                    android:onClick="sendEmail"
                     android:textColorLink="@color/colorContactText"/>
 
             </LinearLayout>
@@ -121,7 +122,8 @@
                 <TextView
                     android:id="@+id/tv_twitter"
                     android:text="@string/twitter_name"
-                    style="@style/ContactText"/>
+                    style="@style/ContactText"
+                    android:onClick="openTwitterWebsite"/>
 
             </LinearLayout>
 
@@ -135,7 +137,8 @@
                 <TextView
                     android:id="@+id/tv_linkedin"
                     android:text="@string/linkedin_name"
-                    style="@style/ContactText"/>
+                    style="@style/ContactText"
+                    android:onClick="openLinkedinWebsite"/>
 
             </LinearLayout>
 
