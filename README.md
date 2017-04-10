@@ -6,4 +6,4 @@ The app is an introduction of [Tanits](https://www.tanits.com), our early childh
 
 ## Demo
 
-![Demo pictures](https://c1.staticflickr.com/3/2858/32763062544_81ac62c3e0_c.jpg)
+![Demo pictures](https://c1.staticflickr.com/4/3736/33821101471_468c18ab35_c.jpg)
