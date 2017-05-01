@@ -64,12 +64,9 @@
         <LinearLayout
             style="@style/HelpLinearLayout">
 
-
             <TextView
                 android:text="@string/tv_help"
                 style="@style/HelpText"/>
-
-
 
             <ImageView
                 android:src="@drawable/help_icon"
